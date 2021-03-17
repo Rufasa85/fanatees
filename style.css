@@ -1,4 +1,65 @@
+* {
+    font-family:"Comic Sans MS", cursive;
+    text-align:center;
+    margin:0;
+    padding:0;
+}
 body {
     min-height: 100vh;
     background: linear-gradient(90deg, salmon, cornflowerblue);
+}
+
+nav {
+    background:black;
+    color:white;
+    text-align: right;
+    /* height:10vh; */
+    position: fixed;
+    padding:30px 0;
+    top:0;
+    width:100%;
+    z-index: 2;
+    font-size:24px;
+}
+
+nav > a ,nav>a:visited{
+    color:white;
+    margin:10px;
+    text-decoration: none;
+}
+
+nav >a:hover {
+    opacity: 0.5;
+}
+
+h1 {
+    margin-top: 96px;
+}
+
+img {
+    filter: sepia();
+    display: block;
+    box-shadow: 5px 5px 10px black;
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+    margin:10px auto;
+}
+
+footer {
+    background:black;
+    color:white;
+    text-align: center;
+    height:15vh;
+}
+
+#contact {
+    background:white;
+    width:33vw;
+    color:black;
+    margin:20px auto;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px black;
 }
